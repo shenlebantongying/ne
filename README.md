@@ -5,7 +5,7 @@
 cd ./src
 make generate_sources
 cd ..
-meson setup ./builddir
+meson setup ./builddir --prefix=~/opt
 meson compile -C ./builddir
 NE_GLOBAL_DIR=../ ./builddir/ne
 ```

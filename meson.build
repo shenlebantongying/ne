@@ -27,5 +27,4 @@ exe = executable(
     [sources],
     dependencies: [dependency('ncurses')],
     install: true,
-    implicit_include_directories: false,
 )

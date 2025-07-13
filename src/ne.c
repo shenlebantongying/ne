@@ -25,7 +25,7 @@
 
 #include "version.h"
 #include "termchar.h"
-
+#include "term_ne.h"
 #include <signal.h>
 #include <limits.h>
 #include <locale.h>
@@ -56,7 +56,8 @@ char *NO_WARRANTY_msg[] = {   PROGRAM_NAME " " VERSION ".",
 										"just press Escape followed by a letter.",
 										"",
 										"ne home page: http://ne.di.unimi.it/  GitHub repo: https://github.com/vigna/ne/",
-										"Discuss ne at http://groups.google.com/group/niceeditor/",
+										"Discuss ne at http://groups.google.com/group/niceeditor/",										"Discuss ne at http://groups.google.com/group/niceeditor/",
+
 										NULL
 									};
 

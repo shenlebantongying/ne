@@ -19,7 +19,7 @@
 	along with this program; if not, see <http://www.gnu.org/licenses/>.  */
 
 
-#include "term.h"
+#include "term_ne.h"
 
 /* actions.c */
 int do_action(buffer *b, action a, int64_t c, char *p);

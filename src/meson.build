@@ -47,7 +47,7 @@ sources = files(
     'syn_utils.h',
     'syntax.c',
     'syntax.h',
-    'term.c',
+    'term_ne.c',
     'termchar.h',
     'undo.c',
     'utf8.c',
