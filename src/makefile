@@ -226,3 +226,6 @@ tparam.o: termcap.h
 undo.o: $(MAINH) support.h keycodes.h names.h errors.h protos.h
 
 utf8.o: utf8.h
+
+.PHONEY: generate_sources
+generate_sources: enums.h names.c names.h hash.c hash.h help.c help.h ext.c

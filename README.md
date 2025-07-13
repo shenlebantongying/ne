@@ -1,3 +1,15 @@
+# :)
+
+```sh
+./version.pl
+cd ./src
+make generate_sources
+cd ..
+meson setup ./builddir
+meson compile -C ./builddir
+NE_GLOBAL_DIR=../ ./builddir/ne
+```
+
 # Welcome to `ne`, the nice editor!
 
 ## Introduction
